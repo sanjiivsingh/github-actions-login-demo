@@ -39,6 +39,7 @@ jobs:
         run: terraform apply -auto-approve           
 
   job2:
+    needs: azure-login-job1
     runs-on: ubuntu-latest
 
     steps:
