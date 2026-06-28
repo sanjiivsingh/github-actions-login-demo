@@ -43,5 +43,5 @@ jobs:
 
     steps:
       - name: Running Job2 on Ubuntu
-        uses: echo "This job is running on ubuntu latest"
+        run: echo "This job is running on ubuntu latest"
 
