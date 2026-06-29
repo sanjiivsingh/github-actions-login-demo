@@ -12,7 +12,8 @@ jobs:
     runs-on: macos-latest
 
     steps:
-       
+
+#Azure login with OIDC
       - name: Azure login
         uses: azure/login@v3
         with:
